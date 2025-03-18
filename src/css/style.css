@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'public sans';
+    font-size: 18px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    width: 1421px;
+    height: 426px;
+}
+
+.logo {
+    display: flex;
+    width: 45px;
+    height: 42px;
+    gap: 5px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.secao {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.secao li {
+    display: flex;
+    padding-top: 14px;
+
+}
+
+.secao a {
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+a:hover {
+    text-decoration: underline #292dac;
+}
+
+.destaque {
+    background-color: #5BC241;
+    color: #ffffff;
+    padding: 10px 15px;
+}
+
+.cadastro {
+    background-color: #5BC241;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 10px
+}
+
+@media (max-width: 775px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+    }
+
+    .cabecalho {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        width: 775px;
+        height: 800px;
+        font-size: 40px;
+        margin: auto;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: auto;
+    }
+
+    .titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    .secao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding-bottom: 75px;
+    
+    }
+
+    .secao li {
+        display: flex;
+    }
+
+    .secao a {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        color: black;
+        font-weight: 400;
+        font-size: 40px;
+        padding-bottom: 25px;
+        gap: 0;
+
+    }
+
+    .cadastro {
+        font-size: 30px;
+    }
+
+
+}
